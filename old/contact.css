@@ -39,7 +39,7 @@ body{
     grid-template-columns: 1fr 2fr;
     gap: 15px;
 }
-#content img{
+.left-image > img{
     width: 550px;
     height: 80vh;
 }

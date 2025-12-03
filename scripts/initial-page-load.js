@@ -73,4 +73,3 @@ export function pageLoad(){
 
 }
 
-//cover whole code with a loader function and export to use module;
