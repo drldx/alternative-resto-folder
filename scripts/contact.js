@@ -20,7 +20,11 @@ export function loadContact(){
   const leftSection = newElem("section", "left-image");
 
   const leftImage = newElem("img", "", "", "./images/nathan-dumlao-pJllO6r0pKo-unsplash.jpg", "restaurant");
-  leftSection.appendChild(leftImage);
+
+  const figCaption = document.createElement("figcaption");
+  figCaption.innerHTML = `Photo by <a href="https://unsplash.com/@nate_dumlao?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Nathan Dumlao</a>`; 
+
+  leftSection.append(leftImage, figCaption);
 
   const rightSection = newElem("section", "right-section");
   const contactH2 = newElem("h2", '', "Contact Us");
